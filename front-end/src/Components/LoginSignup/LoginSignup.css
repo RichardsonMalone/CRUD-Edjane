@@ -1,0 +1,82 @@
+/* Container centralizado */
+.container {
+    width: 350px;
+    margin: 80px auto;
+    padding: 30px 20px;
+    background-color: #f8f9fa;
+    /* fundo claro */
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cabeçalho */
+.header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.header .text {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* Inputs */
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 12px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+.input:hover {
+    border-color: #6c63ff;
+    box-shadow: 0 0 8px rgba(108, 99, 255, 0.2);
+}
+
+.input img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.input input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    color: #333;
+    background-color: transparent;
+}
+
+/* Botão de login */
+.submit-container {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.submit {
+    display: inline-block;
+    padding: 12px 40px;
+    background-color: #6c63ff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit:hover {
+    background-color: #5848c2;
+    transform: translateY(-2px);
+}
